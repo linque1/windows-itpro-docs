@@ -7,12 +7,12 @@ ms.mktglfcycl: manage
 ms.sitesec: library
 ms.localizationpriority: high
 audience: ITPro
-author: linque1
-ms.author: obezeajo
+author: v-cagito
+ms.author: v-cagito
 manager: robsize
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.date: 5/11/2020
+ms.date: 10/30/2020
 ---
 # Windows 10, version 2004, connection endpoints for non-Enterprise editions
 
@@ -80,7 +80,6 @@ The following methodology was used to derive the network endpoints:
 |tile-service.weather.microsoft.com|HTTPS|Used to download updates to the Weather app Live Tile
 |tsfe.trafficshaping.dsp.mp.microsoft.com|TLSv1.2|Used for content regulation
 |v10.events.data.microsoft.com|TLSv1.2|Diagnostic Data
-|v20.events.data.microsoft.com|TLSv1.2|Diagnostic Data
 |watson.telemetry.microsoft.com|HTTPS|Diagnostic Data
 |wdcp.microsoft.com|TLSv1.2|Used for Windows Defender when Cloud-based Protection is enabled
 |www.bing.com|TLSv1.2|Used for updates for Cortana, apps, and Live Tiles
@@ -193,7 +192,6 @@ The following methodology was used to derive the network endpoints:
 |telecommand.telemetry.microsoft.com|TLSv1.2|Used by Windows Error Reporting
 |tile-service.weather.microsoft.com|HTTPS|Used to download updates to the Weather app Live Tile
 |v10.events.data.microsoft.com|TLSv1.2|Diagnostic Data
-|v20.events.data.microsoft.com|HTTPS|Diagnostic Data
 |watson.telemetry.microsoft.com|HTTPS|Diagnostic Data
 |wdcp.microsoft.com|TLSv1.2|Used for Windows Defender when Cloud-based Protection is enabled
 |www.bing.com|TLSv1.2|Used for updates for Cortana, apps, and Live Tiles
